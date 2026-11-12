@@ -43,8 +43,8 @@ The `dashboard/` folder contains the final dashboard deliverables:
 
 | File | Description |
 |---|---|
-| `Placement_Analysis_Final.xlsx` | Excel dashboard and analysis workbook. |
-| `Placement_Skills_Gap_Analytics_Dashboard_01.pbix` | **Complete Power BI report**, including its report pages, visuals, model, relationships, measures and imported data. |
+| `Excel_Dashboard.xlsx` | Excel dashboard and analysis workbook. |
+| `PowerBI_Dashboard.pbix` | **Complete Power BI report**, including its report pages, visuals, model, relationships, measures and imported data. |
 
 ### Opening the Power BI dashboard
 

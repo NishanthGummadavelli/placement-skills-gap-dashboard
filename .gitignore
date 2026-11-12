@@ -1,6 +1,7 @@
-# Python cache
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # Virtual environments
 .venv/
@@ -14,14 +15,21 @@ env/
 .env
 .env.*
 
-# Dataset files
+# Local datasets and intermediate exports
 data/raw/
 data/processed/
 *.csv
 *.parquet
-*.xlsx
 
-# Editor and OS files
+# Ignore Excel workbooks by default, but keep the final dashboard workbook
+*.xlsx
+!dashboard/
+!dashboard/*.xlsx
+
+# Power BI dashboard files are intentionally NOT ignored.
+# Keep the complete .pbix report in the dashboard/ directory.
+
+# Editor and operating-system files
 .vscode/
 .DS_Store
 Thumbs.db

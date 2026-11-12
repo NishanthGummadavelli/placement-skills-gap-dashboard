@@ -1,0 +1,10 @@
+# Core data analysis and dashboard preparation dependencies
+pandas==3.0.6
+numpy==2.5.4
+matplotlib
+seaborn
+openpyxl
+
+# Jupyter notebook environment
+jupyter
+ipykernel
